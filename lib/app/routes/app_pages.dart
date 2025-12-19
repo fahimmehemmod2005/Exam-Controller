@@ -3,12 +3,10 @@ import 'package:exam_controller/app/modules/user_profile/views/widget/edit_profi
 import 'package:exam_controller/app/modules/user_profile/views/widget/forgot_password_dialog.dart';
 import 'package:exam_controller/app/modules/user_profile/views/widget/set_new_password.dart';
 import 'package:get/get.dart';
-
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/user_profile/bindings/user_profile_binding.dart';
 import '../modules/user_profile/views/user_profile_view.dart';
-
 part 'app_routes.dart';
 
 class AppPages {
