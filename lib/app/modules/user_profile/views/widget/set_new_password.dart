@@ -1,7 +1,5 @@
-import 'package:exam_controller/app/modules/user_profile/views/user_profile_view.dart';
 import 'package:exam_controller/app/modules/utils/common/input.dart';
 import 'package:exam_controller/app/modules/utils/elevated.dart';
-import 'package:exam_controller/app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
