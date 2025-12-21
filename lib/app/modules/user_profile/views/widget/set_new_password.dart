@@ -1,5 +1,5 @@
-import 'package:exam_controller/app/modules/utils/common/input.dart';
-import 'package:exam_controller/app/modules/utils/elevated.dart';
+import 'package:exam_controller/app/modules/utils/common/input_text_field.dart';
+import 'package:exam_controller/app/modules/utils/common/custom_elevated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
@@ -9,7 +9,7 @@ class SetNewPasswrodDialog extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButtonWidget(
+    return CustomElevatedButton(
       text: 'Submit',
       onPressed: () async {
         Get.offAllNamed(
@@ -61,7 +61,7 @@ class SetNewPasswrodDialog extends StatelessWidget {
                                 style: TextStyle(color: Colors.red),
                               ),
                             ),
-                            ElevatedButtonWidget(
+                            CustomElevatedButton(
                               text: 'Submit',
                               onPressed: () {
                                 Get.back();

@@ -1,7 +1,7 @@
 import 'package:exam_controller/app/modules/user_profile/views/widget/change_password_dialog.dart';
 import 'package:exam_controller/app/modules/user_profile/views/widget/edit_profile_dialog_box.dart';
-import 'package:exam_controller/app/modules/utils/common/input.dart';
-import 'package:exam_controller/app/modules/utils/elevated.dart';
+import 'package:exam_controller/app/modules/utils/common/input_text_field.dart';
+import 'package:exam_controller/app/modules/utils/common/custom_elevated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
@@ -54,7 +54,7 @@ class UserProfileView extends GetView<UserProfileController> {
                   Spacer(),
 
                   // ____________________ edit profile button and dialog box _______________________
-                  ElevatedButtonWidget(
+                  CustomElevatedButton(
                     onPressed: () {
                       showDialog(
                         context: context,

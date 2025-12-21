@@ -1,5 +1,5 @@
 import 'package:exam_controller/app/modules/user_profile/views/widget/set_new_password.dart';
-import 'package:exam_controller/app/modules/utils/common/input.dart';
+import 'package:exam_controller/app/modules/utils/common/input_text_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';

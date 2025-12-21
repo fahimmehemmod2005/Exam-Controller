@@ -1,5 +1,5 @@
-import 'package:exam_controller/app/modules/utils/common/input.dart';
-import 'package:exam_controller/app/modules/utils/elevated.dart';
+import 'package:exam_controller/app/modules/utils/common/input_text_field.dart';
+import 'package:exam_controller/app/modules/utils/common/custom_elevated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_core/src/get_main.dart';
@@ -62,7 +62,7 @@ class EdiProfileDialogBox extends StatelessWidget {
                     textAlign: TextAlign.center,
                   ),
                   SizedBox(height: 8.h),
-                  ElevatedButtonWidget(
+                  CustomElevatedButton(
                     text: 'Browse Files',
                     onPressed: () {},
                   ),
@@ -115,7 +115,7 @@ class EdiProfileDialogBox extends StatelessWidget {
                     style: TextStyle(color: Colors.red),
                   ),
                 ),
-                ElevatedButtonWidget(
+                CustomElevatedButton(
                   text: 'Update',
                   onPressed: () {
                     Get.back(

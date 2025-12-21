@@ -1,6 +1,6 @@
 import 'package:exam_controller/app/modules/user_profile/views/widget/forgot_password_dialog.dart';
-import 'package:exam_controller/app/modules/utils/common/input.dart';
-import 'package:exam_controller/app/modules/utils/elevated.dart';
+import 'package:exam_controller/app/modules/utils/common/input_text_field.dart';
+import 'package:exam_controller/app/modules/utils/common/custom_elevated_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
@@ -10,7 +10,7 @@ class ChangePassowrdDialog extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButtonWidget(
+    return CustomElevatedButton(
       onPressed: () {
         showDialog(
           context: context,
@@ -76,7 +76,7 @@ class ChangePassowrdDialog extends StatelessWidget {
                             style: TextStyle(color: Colors.red),
                           ),
                         ),
-                        ElevatedButtonWidget(
+                        CustomElevatedButton(
                           text: 'Update',
                           onPressed: () {
                             Get.back(canPop: true, closeOverlays: true);
